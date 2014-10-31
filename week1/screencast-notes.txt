@@ -1,0 +1,48 @@
+Week 1 - User Registration App
+
+SSL International (our client)
+
+PDO - PHP Data Objects
+
+50 word summary 
+
+- focus on the business aspects, how to sell yourself.  Competitive advantage, critical thinking.
+	- understand their expectations
+	- 'have you established a budget'?
+	- double check technical skillset
+	- Analyze
+		- did I document All of the project requirements
+			- what will I deliver
+			- what will the client deliver
+			- what problem needs to be solved
+			- proposed schedule and deadline
+		- did the client accept my proposal and contract
+			- collect 50% down payment
+	- Design
+		- pseudo code
+		- flowchart
+- 'ADDIO' Development process
+	- Analyze
+	- Design
+	- Develop & Debug
+	- Integrate & Test
+	- Optimize
+
+User Registration (analyze and design)
+- write pseudo code
+- create flow chart
+
+-- name at top
+-- php in html body
+-- use html validation for requirements
+
+
+user registration p2 - screencast mandatory
+
+Hi Fia,
+
+Thanks for sharing your background and some wisdom with us.  Yes, the hardest part for me has always been talking about money.  I feel more confident hearing it's okay to ask for 50% up front as I'm now in a position where I feel I should be doing that.  I haven't yet run into issues with people paying, but all the same I see what you're saying about contracts.
+
+I also picked up and overview of your development process, ADDIO - which stands for: Analyze, Design, Develop + Debug, Integrate + Test, and Optimize.  We'll be covering the first few steps in our assignments this week.  It's also good to know that the screencast is mandatory.
+
+Looking forward to presenting my work to you, thanks for helping us get up to speed!
