@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Project #1: Form Processing</title>
+	<link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="./" class="navbar-brand">SSL International</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<section class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<h2>Sign Up Today</h2>
+					<p class="lead">There are many benefits to being a registered user!</p>
+					<a href="#" class="btn btn-default">Learn More</a>
+				</div>
+				<div class="col-xs-6">
+					<form enctype="multipart/form-data" method="POST" action="newuser.php" class="clearfix">
+						<div class="form-group">
+							<label>First Name</label>
+							<input type="text" name="fName" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Last Name</label>
+							<input type="text" name="lName" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Username</label>
+							<input type="text" name="username" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<input type="password" name="password" class="form-control" required>
+						</div>
+						<div class="form-group">
+							<label>Avatar Image (.jpg or .png)</label>
+							<input type="file" name="avatar" class="form-control">
+						</div>
+						<button type="submit" class="btn btn-primary pull-right">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
