@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=8blST1AKXxg
+
+Outline:
+(0:00) Introduction
+(0:30) Working Example
+(1:15) Code Step Through
+(3:45) Error Handling
+(6:39) What I learned

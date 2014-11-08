@@ -1,0 +1,26 @@
+This week's assignment - Fruits Database
+	- Part 1: Analyze and Design
+		- Write pseudo-code
+		- Create a flowchart design
+	- Part 2: Develop
+		- Expand sample flowchart
+		- Requires Screencast
+		- Include SQL dump
+
+In week 3, we'll be continuing enhancing this week's work by fleshing out database and functionality.
+
+Main Functionality:
+	- MySQL DB: 'SSL'
+	- Use PDO to Connect
+	- CRUD Functionality
+		- Create Fruits .php
+		- Delete Fruits .php
+
+What is PDO?
+	-	PDO stands for PHP Data Objects, and provides drivers for establishing easy connections to any DB.
+
+What is CRUD?
+	- stands for "Create, Read, Update, Delete." Used in relation to manipulating and managing database storage.
+	- Week 2 only worry about Create + Read.
+
+A brief overview of connecting to db, and PDO commands.  Client side validation via HTML attributes.  Redirect after form submission.

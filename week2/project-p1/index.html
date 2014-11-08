@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Fruit DB App: Exploring CRUD + PDO</title>
+	<link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+	<section id="add-fruit" class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<h1>Explore the world of Fruits!</h1>
+					<p class="lead">Help us document and manage our massive list of fruits and their color.  This form will allow you to add any fruit to the database.</p>
+				</div>
+				<div class="col-xs-5 col-xs-push-1">
+					<form class="form well clearfix">
+						<div class="form-group">
+							<label for="fruit-name">Fruit Name</label>
+							<input type="text" id="fruit-name" class="form-control" name="fruit-name">
+						</div>
+						<div class="form-group">
+							<label for="fruit-color">Fruit Color</label>
+							<input type="text" id="fruit-color" class="form-control" name="fruit-color">
+						</div>
+						<button class="btn btn-primary pull-right" type="submit">Add Fruit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="manage-fruit">
+		<div class="container">
+			<div class="row">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Fruit ID</th>
+							<th>Fruit Name</th>
+							<th>Fruit Color</th>
+							<th>Delete Fruit</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Apple</td>
+							<td>Red</td>
+							<td><a href="deletefruit.php?id=1" class="btn btn-danger btn-sm btn-block">Delete</a></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Grape</td>
+							<td>Purple</td>
+							<td><a href="deletefruit.php?id=1" class="btn btn-danger btn-sm btn-block">Delete</a></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Orange</td>
+							<td>Orange</td>
+							<td><a href="deletefruit.php?id=1" class="btn btn-danger btn-sm btn-block">Delete</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
