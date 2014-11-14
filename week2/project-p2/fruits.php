@@ -8,11 +8,11 @@
 	<section id="add-fruit" class="jumbotron">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-6">
-					<h1>Explore the world of Fruits!</h1>
+				<div class="col-xs-7 content">
+					<h1>Explore the wonderful world of Fruits!</h1>
 					<p class="lead">Help us document and manage our massive list of fruits and their color.  This form will allow you to add any fruit to the database.</p>
 				</div>
-				<div class="col-xs-5 col-xs-push-1">
+				<div class="col-xs-4 col-xs-push-1">
 					<?php
 
 					//include once 'includes/connection.php' which stores db credentials and instantiates pdo object
@@ -84,12 +84,6 @@
 						} //end row for loop
 
 						?>
-						<!-- <tr>
-							<td>1</td>
-							<td>Apple</td>
-							<td>Red</td>
-							<td><a href="deletefruit.php?id=1" class="btn btn-danger btn-sm btn-block">Delete</a></td>
-						</tr> -->
 					</tbody>
 				</table>
 			</div>
