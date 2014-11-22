@@ -1,0 +1,50 @@
+@import '../bower_components/bootstrap/less/bootstrap';
+
+@white: #fff;
+
+html{
+	background-color: @white;
+	background-image: url(http://www.transparenttextures.com/patterns/ice-age.png);
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	body{
+		background: transparent;
+	}
+}
+
+section{
+	&#add-fruit{
+		background: transparent url(../images/fruits.jpg) center center no-repeat;
+		background-size: cover;
+		.content{
+			color: @white;
+			// background: fade(#000, 80%);
+			border-radius: @border-radius-base;
+			// padding: 20px;
+			text-shadow: 1px 1px 10px #000;
+		}
+		h1{
+			margin-top: 0;
+			color: @white;
+		}
+		form{
+			// margin-top: 20px;
+			background-color: @white;
+			background-image: url(http://www.transparenttextures.com/patterns/ice-age.png);
+			/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+			sup{
+				color: @brand-danger;
+			}
+		}
+	}
+	&#manage-fruit{
+		table > tbody > tr > td{
+			vertical-align: middle;
+			&:first-child{
+				// width: 15%;
+			}
+			&:last-child{
+				width: 15%;
+			}
+		}
+	}
+}

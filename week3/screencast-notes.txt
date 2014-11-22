@@ -1,0 +1,10 @@
+Homework this week: Extend last week's fruit db app
+	- display fruit image
+	- api is key for this week
+		- api - application programming interface
+			- software to software interface
+
+	* part 1
+		- sudocode
+		- expand last weeks flowchart, additions at 19:57
+		- updated html
